@@ -1,8 +1,6 @@
 name: Pytest
 
-on: 
-  schedule:
-    - cron: "42 00 * * 4"
+on: [push]
 
 jobs:
   build:
