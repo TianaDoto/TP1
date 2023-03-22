@@ -1,1 +1,5 @@
-
+steps:
+  - name: Install dependencies
+    run: pip install -r requirements.txt
+  - name: Lint with Pylint
+    run: pylint --rcfile=.pylintrc <H:\5th year\2nd semester\Data OPs et ML OPs\TP1\pytest.py>
