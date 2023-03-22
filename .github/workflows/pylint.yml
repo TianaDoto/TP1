@@ -1,6 +1,8 @@
 name: Pylint
 
-on: [push]
+on: 
+  schedule:
+    - cron: '42 00 * * 4'
 
 jobs:
   build:
